@@ -3,7 +3,7 @@
 module.exports = {
   root: true,
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "react-hooks"],
   extends: [
     "prettier/@typescript-eslint",
     "plugin:import/errors",
@@ -20,9 +20,15 @@ module.exports = {
     jest: true,
     node: true,
   },
-
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: "module",
+  },
+  rules: {
+    "import/namespace": "off",
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "jsx-quotes": ["error", "prefer-double"],
   },
 };
