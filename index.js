@@ -12,6 +12,7 @@ module.exports = {
     "plugin:prettier/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
+    "react-native",
     "plugin:react-hooks/recommended",
   ],
   env: {
