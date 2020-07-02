@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/tie-team/eslint-config-tie-app/compare/v0.0.3...v0.0.4) (2020-07-02)
+
+
+### Features
+
+* update rules ([845c79f](https://github.com/tie-team/eslint-config-tie-app/commit/845c79fca55a095226e15d3d0cd33d9604c28d65))
+
 ### [0.0.3](https://github.com/tie-team/eslint-config-tie-app/compare/v0.0.2...v0.0.3) (2020-07-02)
 
 
