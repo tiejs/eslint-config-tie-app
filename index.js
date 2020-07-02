@@ -1,10 +1,14 @@
-'use strict'
+"use strict";
 
 module.exports = {
   root: true,
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
-  extends: ['prettier/@typescript-eslint', 'plugin:prettier/recommended'],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
+  extends: [
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
+    "plugin:react-hooks/recommended",
+  ],
   env: {
     commonjs: true,
     es6: true,
@@ -14,6 +18,6 @@ module.exports = {
 
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module',
+    sourceType: "module",
   },
-}
+};
